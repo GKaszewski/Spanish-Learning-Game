@@ -1,0 +1,1994 @@
+[
+  {
+    "Spanish": "contabilidad",
+    "English": "accounting"
+  },
+  {
+    "Spanish": "álgebra",
+    "English": "algebra"
+  },
+  {
+    "Spanish": "arte",
+    "English": "art"
+  },
+  {
+    "Spanish": "biología",
+    "English": "biology"
+  },
+  {
+    "Spanish": "negocio",
+    "English": "business"
+  },
+  {
+    "Spanish": "cálculo",
+    "English": "calculus"
+  },
+  {
+    "Spanish": "química",
+    "English": "chemistry"
+  },
+  {
+    "Spanish": "informática",
+    "English": "computer science"
+  },
+  {
+    "Spanish": "danza",
+    "English": "dance"
+  },
+  {
+    "Spanish": "economía",
+    "English": "economics"
+  },
+  {
+    "Spanish": "idiomas extranjeros",
+    "English": "foreign languages"
+  },
+  {
+    "Spanish": "geografía",
+    "English": "geography"
+  },
+  {
+    "Spanish": "geometría",
+    "English": "geometry"
+  },
+  {
+    "Spanish": "historia",
+    "English": "history"
+  },
+  {
+    "Spanish": "matemáticas",
+    "English": "math"
+  },
+  {
+    "Spanish": "música",
+    "English": "music"
+  },
+  {
+    "Spanish": "educación física",
+    "English": "physical education"
+  },
+  {
+    "Spanish": "física",
+    "English": "physics"
+  },
+  {
+    "Spanish": "ciencia política",
+    "English": "political science"
+  },
+  {
+    "Spanish": "el libro",
+    "English": "book"
+  },
+  {
+    "Spanish": "el colegio",
+    "English": "college"
+  },
+  {
+    "Spanish": "la computadora",
+    "English": "computer"
+  },
+  {
+    "Spanish": "el diccionário",
+    "English": "dictionary"
+  },
+  {
+    "Spanish": "el papel",
+    "English": "paper"
+  },
+  {
+    "Spanish": "el lapiz",
+    "English": "pencil"
+  },
+  {
+    "Spanish": "el lapicero",
+    "English": "pen"
+  },
+  {
+    "Spanish": "profesor/a",
+    "English": "professor"
+  },
+  {
+    "Spanish": "escuela",
+    "English": "school"
+  },
+  {
+    "Spanish": "estudiente",
+    "English": "student"
+  },
+  {
+    "Spanish": "maestro/maestra",
+    "English": "teacher"
+  },
+  {
+    "Spanish": "el examen",
+    "English": "test/quiz/exam"
+  },
+  {
+    "Spanish": "la universidad",
+    "English": "university"
+  },
+  {
+    "Spanish": "estudiar",
+    "English": "to study"
+  },
+  {
+    "Spanish": "aprender",
+    "English": "to learn"
+  },
+  {
+    "Spanish": "enseñar",
+    "English": "to teach"
+  },
+  {
+    "Spanish": "escribir",
+    "English": "to write"
+  },
+  {
+    "Spanish": "dibujar",
+    "English": "to draw"
+  },
+  {
+    "Spanish": "leer",
+    "English": "to read"
+  },
+  {
+    "Spanish": "el aeropuerto",
+    "English": "airport"
+  },
+  {
+    "Spanish": "lapanadería",
+    "English": "bakery"
+  },
+  {
+    "Spanish": "el banco",
+    "English": "bank"
+  },
+  {
+    "Spanish": "la playa",
+    "English": "beach"
+  },
+  {
+    "Spanish": "el café",
+    "English": "cafe"
+  },
+  {
+    "Spanish": "la iglesia",
+    "English": "church"
+  },
+  {
+    "Spanish": "la fábrica",
+    "English": "factory"
+  },
+  {
+    "Spanish": "el gardín",
+    "English": "garden"
+  },
+  {
+    "Spanish": "almacén",
+    "English": "grocery store"
+  },
+  {
+    "Spanish": "el hogar",
+    "English": "home"
+  },
+  {
+    "Spanish": "la hospital",
+    "English": "hospital"
+  },
+  {
+    "Spanish": "la biblioteca",
+    "English": "library"
+  },
+  {
+    "Spanish": "el mercado",
+    "English": "market"
+  },
+  {
+    "Spanish": "el cine",
+    "English": "movie theater"
+  },
+  {
+    "Spanish": "el museo",
+    "English": "museum"
+  },
+  {
+    "Spanish": "panaderia",
+    "English": "pastry shop"
+  },
+  {
+    "Spanish": "el parque",
+    "English": "park"
+  },
+  {
+    "Spanish": "la farmácia",
+    "English": "pharmacy"
+  },
+  {
+    "Spanish": "la estación de la policía",
+    "English": "police station"
+  },
+  {
+    "Spanish": "los correos",
+    "English": "post office"
+  },
+  {
+    "Spanish": "la piscina",
+    "English": "pool"
+  },
+  {
+    "Spanish": "el restaurante",
+    "English": "restaurant"
+  },
+  {
+    "Spanish": "la escuela",
+    "English": "school"
+  },
+  {
+    "Spanish": "el estadio",
+    "English": "stadium"
+  },
+  {
+    "Spanish": "tienda",
+    "English": "store"
+  },
+  {
+    "Spanish": "la estación del tren",
+    "English": "train station"
+  },
+  {
+    "Spanish": "pasillo de ciudad",
+    "English": "town hall"
+  },
+  {
+    "Spanish": "librería",
+    "English": "bookstore"
+  },
+  {
+    "Spanish": "parque zoológico",
+    "English": "zoo"
+  },
+  {
+    "Spanish": "la officina",
+    "English": "office"
+  },
+  {
+    "Spanish": "la ciudad",
+    "English": "city"
+  },
+  {
+    "Spanish": "la renta",
+    "English": "the rent"
+  },
+  {
+    "Spanish": "el impuesto",
+    "English": "tax"
+  },
+  {
+    "Spanish": "la cuesta",
+    "English": "the cost"
+  },
+  {
+    "Spanish": "el précio",
+    "English": "price"
+  },
+  {
+    "Spanish": "la cuenta",
+    "English": "bill"
+  },
+  {
+    "Spanish": "la estimación",
+    "English": "estimate"
+  },
+  {
+    "Spanish": "el cheque",
+    "English": "check"
+  },
+  {
+    "Spanish": "el cheque de viajar",
+    "English": "travelers check"
+  },
+  {
+    "Spanish": "el passaporte",
+    "English": "passport"
+  },
+  {
+    "Spanish": "el equipaje",
+    "English": "luggage/baggage"
+  },
+  {
+    "Spanish": "el intercambio de modernidad",
+    "English": "currency exchange"
+  },
+  {
+    "Spanish": "las aduanas",
+    "English": "customs"
+  },
+  {
+    "Spanish": "la entrada",
+    "English": "entrance"
+  },
+  {
+    "Spanish": "el salido",
+    "English": "exit"
+  },
+  {
+    "Spanish": "la información",
+    "English": "information"
+  },
+  {
+    "Spanish": "pagar",
+    "English": "to pay"
+  },
+  {
+    "Spanish": "comprar",
+    "English": "to buy"
+  },
+  {
+    "Spanish": "vender",
+    "English": "to sell"
+  },
+  {
+    "Spanish": "costar",
+    "English": "to cost"
+  },
+  {
+    "Spanish": "alquiler",
+    "English": "to rent"
+  },
+  {
+    "Spanish": "depositar",
+    "English": "to deposit"
+  },
+  {
+    "Spanish": "en avión",
+    "English": "by airplane"
+  },
+  {
+    "Spanish": "en bicicleta",
+    "English": "by bicycle"
+  },
+  {
+    "Spanish": "en barco",
+    "English": "by boat"
+  },
+  {
+    "Spanish": "en bus",
+    "English": "by bus"
+  },
+  {
+    "Spanish": "en automovíl",
+    "English": "by car"
+  },
+  {
+    "Spanish": "a pie",
+    "English": "on foot"
+  },
+  {
+    "Spanish": "en ciclomotor",
+    "English": "by moped"
+  },
+  {
+    "Spanish": "en motocicleta",
+    "English": "by motorcycle"
+  },
+  {
+    "Spanish": "en subterráneo",
+    "English": "by subway"
+  },
+  {
+    "Spanish": "en taxi",
+    "English": "by taxi"
+  },
+  {
+    "Spanish": "en tren",
+    "English": "by train"
+  },
+  {
+    "Spanish": "motor",
+    "English": "engine"
+  },
+  {
+    "Spanish": "llanta",
+    "English": "wheel"
+  },
+  {
+    "Spanish": "mapa",
+    "English": "map"
+  },
+  {
+    "Spanish": "los direcciones",
+    "English": "directions"
+  },
+  {
+    "Spanish": "acelerar",
+    "English": "to accelerate"
+  },
+  {
+    "Spanish": "retardarse",
+    "English": "to break"
+  },
+  {
+    "Spanish": "parar",
+    "English": "to stop"
+  },
+  {
+    "Spanish": "ir",
+    "English": "to go"
+  },
+  {
+    "Spanish": "dar vuelta a la izqierda",
+    "English": "turn left"
+  },
+  {
+    "Spanish": "dar vuelta a la derecha",
+    "English": "turn right"
+  },
+  {
+    "Spanish": "ir derecho",
+    "English": "go straight"
+  },
+  {
+    "Spanish": "la casa",
+    "English": "house"
+  },
+  {
+    "Spanish": "el apartamento",
+    "English": "apartment"
+  },
+  {
+    "Spanish": "el cuarto",
+    "English": "room"
+  },
+  {
+    "Spanish": "la sala",
+    "English": "living room"
+  },
+  {
+    "Spanish": "la cocina",
+    "English": "kitchen"
+  },
+  {
+    "Spanish": "cuarto de cenar",
+    "English": "dining room"
+  },
+  {
+    "Spanish": "vestíbulo",
+    "English": "hallway"
+  },
+  {
+    "Spanish": "escaleras",
+    "English": "stairs"
+  },
+  {
+    "Spanish": "el baño",
+    "English": "bathroom"
+  },
+  {
+    "Spanish": "bañera",
+    "English": "bathtub"
+  },
+  {
+    "Spanish": "ducha",
+    "English": "shower"
+  },
+  {
+    "Spanish": "la pila",
+    "English": "sink"
+  },
+  {
+    "Spanish": "azotea",
+    "English": "roof"
+  },
+  {
+    "Spanish": "armario",
+    "English": "closet"
+  },
+  {
+    "Spanish": "la ventana",
+    "English": "window"
+  },
+  {
+    "Spanish": "la pared",
+    "English": "wall"
+  },
+  {
+    "Spanish": "la mesa",
+    "English": "table"
+  },
+  {
+    "Spanish": "la silla",
+    "English": "chair"
+  },
+  {
+    "Spanish": "sofá",
+    "English": "couch"
+  },
+  {
+    "Spanish": "escritorio",
+    "English": "desk"
+  },
+  {
+    "Spanish": "lavaplatos",
+    "English": "dishwasher"
+  },
+  {
+    "Spanish": "el puerto",
+    "English": "door"
+  },
+  {
+    "Spanish": "la luz",
+    "English": "light"
+  },
+  {
+    "Spanish": "cama",
+    "English": "bed"
+  },
+  {
+    "Spanish": "manta",
+    "English": "blanket"
+  },
+  {
+    "Spanish": "televisión",
+    "English": "television"
+  },
+  {
+    "Spanish": "el rádio",
+    "English": "radio"
+  },
+  {
+    "Spanish": "la refrijedora",
+    "English": "refrigerator"
+  },
+  {
+    "Spanish": "estufa",
+    "English": "stove"
+  },
+  {
+    "Spanish": "el horno",
+    "English": "oven"
+  },
+  {
+    "Spanish": "la basura",
+    "English": "garbage"
+  },
+  {
+    "Spanish": "microonda",
+    "English": "microwave"
+  },
+  {
+    "Spanish": "la cabeza",
+    "English": "head"
+  },
+  {
+    "Spanish": "el cerebro",
+    "English": "brain"
+  },
+  {
+    "Spanish": "el pelo",
+    "English": "hair"
+  },
+  {
+    "Spanish": "la cara",
+    "English": "face"
+  },
+  {
+    "Spanish": "el oreja",
+    "English": "ear"
+  },
+  {
+    "Spanish": "el ojo",
+    "English": "eye"
+  },
+  {
+    "Spanish": "la boca",
+    "English": "mouth"
+  },
+  {
+    "Spanish": "la naríz",
+    "English": "nose"
+  },
+  {
+    "Spanish": "el cuello",
+    "English": "neck"
+  },
+  {
+    "Spanish": "el hombro",
+    "English": "shoulder"
+  },
+  {
+    "Spanish": "el pecho",
+    "English": "chest"
+  },
+  {
+    "Spanish": "el estómigo",
+    "English": "stomach"
+  },
+  {
+    "Spanish": "la cintura",
+    "English": "waist"
+  },
+  {
+    "Spanish": "la espalda",
+    "English": "back"
+  },
+  {
+    "Spanish": "el corazón",
+    "English": "heart"
+  },
+  {
+    "Spanish": "el brazo",
+    "English": "arm"
+  },
+  {
+    "Spanish": "el codo",
+    "English": "elbow"
+  },
+  {
+    "Spanish": "la muñeca",
+    "English": "wrist"
+  },
+  {
+    "Spanish": "el mano",
+    "English": "hand"
+  },
+  {
+    "Spanish": "el dedo",
+    "English": "finger"
+  },
+  {
+    "Spanish": "la pierna",
+    "English": "leg"
+  },
+  {
+    "Spanish": "el pie",
+    "English": "foot"
+  },
+  {
+    "Spanish": "el dedo del pie",
+    "English": "toe"
+  },
+  {
+    "Spanish": "el sombrero",
+    "English": "hat"
+  },
+  {
+    "Spanish": "los pendientes",
+    "English": "earrings"
+  },
+  {
+    "Spanish": "la camisa",
+    "English": "shirt"
+  },
+  {
+    "Spanish": "la blusa",
+    "English": "blouse"
+  },
+  {
+    "Spanish": "el vestido",
+    "English": "dress"
+  },
+  {
+    "Spanish": "los pantelones",
+    "English": "pants"
+  },
+  {
+    "Spanish": "pantalones vaqueros",
+    "English": "jeans"
+  },
+  {
+    "Spanish": "la falda",
+    "English": "skirt"
+  },
+  {
+    "Spanish": "los calcetines",
+    "English": "socks"
+  },
+  {
+    "Spanish": "los zapatos",
+    "English": "shoes"
+  },
+  {
+    "Spanish": "el traje de bañar",
+    "English": "swimsuit"
+  },
+  {
+    "Spanish": "ropa anterior",
+    "English": "underwear"
+  },
+  {
+    "Spanish": "los guantes",
+    "English": "gloves"
+  },
+  {
+    "Spanish": "la correa",
+    "English": "belt"
+  },
+  {
+    "Spanish": "la capa",
+    "English": "coat"
+  },
+  {
+    "Spanish": "el anillo",
+    "English": "ring"
+  },
+  {
+    "Spanish": "perro/a",
+    "English": "dog"
+  },
+  {
+    "Spanish": "gato/a",
+    "English": "cat"
+  },
+  {
+    "Spanish": "ratón",
+    "English": "mouse"
+  },
+  {
+    "Spanish": "ave",
+    "English": "bird"
+  },
+  {
+    "Spanish": "gallina/gallo",
+    "English": "chicken/rooster"
+  },
+  {
+    "Spanish": "la vaca",
+    "English": "cow"
+  },
+  {
+    "Spanish": "pato/a",
+    "English": "duck"
+  },
+  {
+    "Spanish": "la cabra",
+    "English": "goat"
+  },
+  {
+    "Spanish": "el caballo",
+    "English": "horse"
+  },
+  {
+    "Spanish": "cerdo/a",
+    "English": "pig"
+  },
+  {
+    "Spanish": "oveja",
+    "English": "sheep"
+  },
+  {
+    "Spanish": "el lión",
+    "English": "lion"
+  },
+  {
+    "Spanish": "el tigre",
+    "English": "tiger"
+  },
+  {
+    "Spanish": "el oso",
+    "English": "bear"
+  },
+  {
+    "Spanish": "el lobo",
+    "English": "wolf"
+  },
+  {
+    "Spanish": "el elefante",
+    "English": "elephant"
+  },
+  {
+    "Spanish": "el mono",
+    "English": "monkey"
+  },
+  {
+    "Spanish": "la mofeta",
+    "English": "skunk"
+  },
+  {
+    "Spanish": "águila",
+    "English": "eagle"
+  },
+  {
+    "Spanish": "pez",
+    "English": "fish"
+  },
+  {
+    "Spanish": "la ballena",
+    "English": "whale"
+  },
+  {
+    "Spanish": "el bosque",
+    "English": "forest"
+  },
+  {
+    "Spanish": "los árboles",
+    "English": "trees"
+  },
+  {
+    "Spanish": "planta",
+    "English": "plant"
+  },
+  {
+    "Spanish": "flor",
+    "English": "flower"
+  },
+  {
+    "Spanish": "selva",
+    "English": "jungle"
+  },
+  {
+    "Spanish": "el océano",
+    "English": "ocean"
+  },
+  {
+    "Spanish": "el río",
+    "English": "river"
+  },
+  {
+    "Spanish": "la charca",
+    "English": "pond"
+  },
+  {
+    "Spanish": "el lago",
+    "English": "lake"
+  },
+  {
+    "Spanish": "la colina",
+    "English": "hill"
+  },
+  {
+    "Spanish": "la montaña",
+    "English": "mountain"
+  },
+  {
+    "Spanish": "cascada",
+    "English": "waterfall"
+  },
+  {
+    "Spanish": "el arco iris",
+    "English": "rainbow"
+  },
+  {
+    "Spanish": "el cielo",
+    "English": "sky"
+  },
+  {
+    "Spanish": "niebla",
+    "English": "cloud"
+  },
+  {
+    "Spanish": "la lluvia",
+    "English": "rain"
+  },
+  {
+    "Spanish": "el nieve",
+    "English": "snow"
+  },
+  {
+    "Spanish": "el granizo",
+    "English": "hail"
+  },
+  {
+    "Spanish": "la niebla",
+    "English": "fog"
+  },
+  {
+    "Spanish": "el campo",
+    "English": "field/meadow"
+  },
+  {
+    "Spanish": "el relámpago",
+    "English": "lightning"
+  },
+  {
+    "Spanish": "el ángel",
+    "English": "angel"
+  },
+  {
+    "Spanish": "el bautismo",
+    "English": "baptism"
+  },
+  {
+    "Spanish": "la biblia",
+    "English": "Bible"
+  },
+  {
+    "Spanish": "el obispo",
+    "English": "bishop"
+  },
+  {
+    "Spanish": "el buddismo",
+    "English": "Buddhism"
+  },
+  {
+    "Spanish": "el catedral",
+    "English": "cathedral"
+  },
+  {
+    "Spanish": "el cristianismo",
+    "English": "Christianity"
+  },
+  {
+    "Spanish": "la iglesia",
+    "English": "church"
+  },
+  {
+    "Spanish": "la fe",
+    "English": "faith"
+  },
+  {
+    "Spanish": "el Diós",
+    "English": "God"
+  },
+  {
+    "Spanish": "el cielo",
+    "English": "heaven"
+  },
+  {
+    "Spanish": "el infierno",
+    "English": "hell"
+  },
+  {
+    "Spanish": "el judaismo",
+    "English": "Judaism"
+  },
+  {
+    "Spanish": "el monasterio",
+    "English": "monastery"
+  },
+  {
+    "Spanish": "el Pápa",
+    "English": "Pope"
+  },
+  {
+    "Spanish": "la profeta",
+    "English": "prophet"
+  },
+  {
+    "Spanish": "el protestante",
+    "English": "Protestant"
+  },
+  {
+    "Spanish": "la religión",
+    "English": "religion"
+  },
+  {
+    "Spanish": "el sermón",
+    "English": "sermon"
+  },
+  {
+    "Spanish": "el templo",
+    "English": "temple"
+  },
+  {
+    "Spanish": "cantar",
+    "English": "to sing"
+  },
+  {
+    "Spanish": "adorar",
+    "English": "to worship"
+  },
+  {
+    "Spanish": "orar",
+    "English": "to pray"
+  },
+  {
+    "Spanish": "arrepentirse",
+    "English": "to repent (reflexive)"
+  },
+  {
+    "Spanish": "contabilidad",
+    "English": "accounting"
+  },
+  {
+    "Spanish": "álgebra",
+    "English": "algebra"
+  },
+  {
+    "Spanish": "arte",
+    "English": "art"
+  },
+  {
+    "Spanish": "biología",
+    "English": "biology"
+  },
+  {
+    "Spanish": "negocio",
+    "English": "business"
+  },
+  {
+    "Spanish": "cálculo",
+    "English": "calculus"
+  },
+  {
+    "Spanish": "química",
+    "English": "chemistry"
+  },
+  {
+    "Spanish": "informática",
+    "English": "computer science"
+  },
+  {
+    "Spanish": "danza",
+    "English": "dance"
+  },
+  {
+    "Spanish": "economía",
+    "English": "economics"
+  },
+  {
+    "Spanish": "idiomas extranjeros",
+    "English": "foreign languages"
+  },
+  {
+    "Spanish": "geografía",
+    "English": "geography"
+  },
+  {
+    "Spanish": "geometría",
+    "English": "geometry"
+  },
+  {
+    "Spanish": "historia",
+    "English": "history"
+  },
+  {
+    "Spanish": "matemáticas",
+    "English": "math"
+  },
+  {
+    "Spanish": "música",
+    "English": "music"
+  },
+  {
+    "Spanish": "educación física",
+    "English": "physical education"
+  },
+  {
+    "Spanish": "física",
+    "English": "physics"
+  },
+  {
+    "Spanish": "ciencia política",
+    "English": "political science"
+  },
+  {
+    "Spanish": "el libro",
+    "English": "book"
+  },
+  {
+    "Spanish": "el colegio",
+    "English": "college"
+  },
+  {
+    "Spanish": "la computadora",
+    "English": "computer"
+  },
+  {
+    "Spanish": "el diccionário",
+    "English": "dictionary"
+  },
+  {
+    "Spanish": "el papel",
+    "English": "paper"
+  },
+  {
+    "Spanish": "el lapiz",
+    "English": "pencil"
+  },
+  {
+    "Spanish": "el lapicero",
+    "English": "pen"
+  },
+  {
+    "Spanish": "profesor/a",
+    "English": "professor"
+  },
+  {
+    "Spanish": "escuela",
+    "English": "school"
+  },
+  {
+    "Spanish": "estudiente",
+    "English": "student"
+  },
+  {
+    "Spanish": "maestro/maestra",
+    "English": "teacher"
+  },
+  {
+    "Spanish": "el examen",
+    "English": "test/quiz/exam"
+  },
+  {
+    "Spanish": "la universidad",
+    "English": "university"
+  },
+  {
+    "Spanish": "estudiar",
+    "English": "to study"
+  },
+  {
+    "Spanish": "aprender",
+    "English": "to learn"
+  },
+  {
+    "Spanish": "enseñar",
+    "English": "to teach"
+  },
+  {
+    "Spanish": "escribir",
+    "English": "to write"
+  },
+  {
+    "Spanish": "dibujar",
+    "English": "to draw"
+  },
+  {
+    "Spanish": "leer",
+    "English": "to read"
+  },
+  {
+    "Spanish": "el aeropuerto",
+    "English": "airport"
+  },
+  {
+    "Spanish": "lapanadería",
+    "English": "bakery"
+  },
+  {
+    "Spanish": "el banco",
+    "English": "bank"
+  },
+  {
+    "Spanish": "la playa",
+    "English": "beach"
+  },
+  {
+    "Spanish": "el café",
+    "English": "cafe"
+  },
+  {
+    "Spanish": "la iglesia",
+    "English": "church"
+  },
+  {
+    "Spanish": "la fábrica",
+    "English": "factory"
+  },
+  {
+    "Spanish": "el gardín",
+    "English": "garden"
+  },
+  {
+    "Spanish": "almacén",
+    "English": "grocery store"
+  },
+  {
+    "Spanish": "el hogar",
+    "English": "home"
+  },
+  {
+    "Spanish": "la hospital",
+    "English": "hospital"
+  },
+  {
+    "Spanish": "la biblioteca",
+    "English": "library"
+  },
+  {
+    "Spanish": "el mercado",
+    "English": "market"
+  },
+  {
+    "Spanish": "el cine",
+    "English": "movie theater"
+  },
+  {
+    "Spanish": "el museo",
+    "English": "museum"
+  },
+  {
+    "Spanish": "panaderia",
+    "English": "pastry shop"
+  },
+  {
+    "Spanish": "el parque",
+    "English": "park"
+  },
+  {
+    "Spanish": "la farmácia",
+    "English": "pharmacy"
+  },
+  {
+    "Spanish": "la estación de la policía",
+    "English": "police station"
+  },
+  {
+    "Spanish": "los correos",
+    "English": "post office"
+  },
+  {
+    "Spanish": "la piscina",
+    "English": "pool"
+  },
+  {
+    "Spanish": "el restaurante",
+    "English": "restaurant"
+  },
+  {
+    "Spanish": "la escuela",
+    "English": "school"
+  },
+  {
+    "Spanish": "el estadio",
+    "English": "stadium"
+  },
+  {
+    "Spanish": "tienda",
+    "English": "store"
+  },
+  {
+    "Spanish": "la estación del tren",
+    "English": "train station"
+  },
+  {
+    "Spanish": "pasillo de ciudad",
+    "English": "town hall"
+  },
+  {
+    "Spanish": "librería",
+    "English": "bookstore"
+  },
+  {
+    "Spanish": "parque zoológico",
+    "English": "zoo"
+  },
+  {
+    "Spanish": "la officina",
+    "English": "office"
+  },
+  {
+    "Spanish": "la ciudad",
+    "English": "city"
+  },
+  {
+    "Spanish": "la renta",
+    "English": "the rent"
+  },
+  {
+    "Spanish": "el impuesto",
+    "English": "tax"
+  },
+  {
+    "Spanish": "la cuesta",
+    "English": "the cost"
+  },
+  {
+    "Spanish": "el précio",
+    "English": "price"
+  },
+  {
+    "Spanish": "la cuenta",
+    "English": "bill"
+  },
+  {
+    "Spanish": "la estimación",
+    "English": "estimate"
+  },
+  {
+    "Spanish": "el cheque",
+    "English": "check"
+  },
+  {
+    "Spanish": "el cheque de viajar",
+    "English": "travelers check"
+  },
+  {
+    "Spanish": "el passaporte",
+    "English": "passport"
+  },
+  {
+    "Spanish": "el equipaje",
+    "English": "luggage/baggage"
+  },
+  {
+    "Spanish": "el intercambio de modernidad",
+    "English": "currency exchange"
+  },
+  {
+    "Spanish": "las aduanas",
+    "English": "customs"
+  },
+  {
+    "Spanish": "la entrada",
+    "English": "entrance"
+  },
+  {
+    "Spanish": "el salido",
+    "English": "exit"
+  },
+  {
+    "Spanish": "la información",
+    "English": "information"
+  },
+  {
+    "Spanish": "pagar",
+    "English": "to pay"
+  },
+  {
+    "Spanish": "comprar",
+    "English": "to buy"
+  },
+  {
+    "Spanish": "vender",
+    "English": "to sell"
+  },
+  {
+    "Spanish": "costar",
+    "English": "to cost"
+  },
+  {
+    "Spanish": "alquiler",
+    "English": "to rent"
+  },
+  {
+    "Spanish": "depositar",
+    "English": "to deposit"
+  },
+  {
+    "Spanish": "en avión",
+    "English": "by airplane"
+  },
+  {
+    "Spanish": "en bicicleta",
+    "English": "by bicycle"
+  },
+  {
+    "Spanish": "en barco",
+    "English": "by boat"
+  },
+  {
+    "Spanish": "en bus",
+    "English": "by bus"
+  },
+  {
+    "Spanish": "en automovíl",
+    "English": "by car"
+  },
+  {
+    "Spanish": "a pie",
+    "English": "on foot"
+  },
+  {
+    "Spanish": "en ciclomotor",
+    "English": "by moped"
+  },
+  {
+    "Spanish": "en motocicleta",
+    "English": "by motorcycle"
+  },
+  {
+    "Spanish": "en subterráneo",
+    "English": "by subway"
+  },
+  {
+    "Spanish": "en taxi",
+    "English": "by taxi"
+  },
+  {
+    "Spanish": "en tren",
+    "English": "by train"
+  },
+  {
+    "Spanish": "motor",
+    "English": "engine"
+  },
+  {
+    "Spanish": "llanta",
+    "English": "wheel"
+  },
+  {
+    "Spanish": "mapa",
+    "English": "map"
+  },
+  {
+    "Spanish": "los direcciones",
+    "English": "directions"
+  },
+  {
+    "Spanish": "acelerar",
+    "English": "to accelerate"
+  },
+  {
+    "Spanish": "retardarse",
+    "English": "to break"
+  },
+  {
+    "Spanish": "parar",
+    "English": "to stop"
+  },
+  {
+    "Spanish": "ir",
+    "English": "to go"
+  },
+  {
+    "Spanish": "dar vuelta a la izqierda",
+    "English": "turn left"
+  },
+  {
+    "Spanish": "dar vuelta a la derecha",
+    "English": "turn right"
+  },
+  {
+    "Spanish": "ir derecho",
+    "English": "go straight"
+  },
+  {
+    "Spanish": "la casa",
+    "English": "house"
+  },
+  {
+    "Spanish": "el apartamento",
+    "English": "apartment"
+  },
+  {
+    "Spanish": "el cuarto",
+    "English": "room"
+  },
+  {
+    "Spanish": "la sala",
+    "English": "living room"
+  },
+  {
+    "Spanish": "la cocina",
+    "English": "kitchen"
+  },
+  {
+    "Spanish": "cuarto de cenar",
+    "English": "dining room"
+  },
+  {
+    "Spanish": "vestíbulo",
+    "English": "hallway"
+  },
+  {
+    "Spanish": "escaleras",
+    "English": "stairs"
+  },
+  {
+    "Spanish": "el baño",
+    "English": "bathroom"
+  },
+  {
+    "Spanish": "bañera",
+    "English": "bathtub"
+  },
+  {
+    "Spanish": "ducha",
+    "English": "shower"
+  },
+  {
+    "Spanish": "la pila",
+    "English": "sink"
+  },
+  {
+    "Spanish": "azotea",
+    "English": "roof"
+  },
+  {
+    "Spanish": "armario",
+    "English": "closet"
+  },
+  {
+    "Spanish": "la ventana",
+    "English": "window"
+  },
+  {
+    "Spanish": "la pared",
+    "English": "wall"
+  },
+  {
+    "Spanish": "la mesa",
+    "English": "table"
+  },
+  {
+    "Spanish": "la silla",
+    "English": "chair"
+  },
+  {
+    "Spanish": "sofá",
+    "English": "couch"
+  },
+  {
+    "Spanish": "escritorio",
+    "English": "desk"
+  },
+  {
+    "Spanish": "lavaplatos",
+    "English": "dishwasher"
+  },
+  {
+    "Spanish": "el puerto",
+    "English": "door"
+  },
+  {
+    "Spanish": "la luz",
+    "English": "light"
+  },
+  {
+    "Spanish": "cama",
+    "English": "bed"
+  },
+  {
+    "Spanish": "manta",
+    "English": "blanket"
+  },
+  {
+    "Spanish": "televisión",
+    "English": "television"
+  },
+  {
+    "Spanish": "el rádio",
+    "English": "radio"
+  },
+  {
+    "Spanish": "la refrijedora",
+    "English": "refrigerator"
+  },
+  {
+    "Spanish": "estufa",
+    "English": "stove"
+  },
+  {
+    "Spanish": "el horno",
+    "English": "oven"
+  },
+  {
+    "Spanish": "la basura",
+    "English": "garbage"
+  },
+  {
+    "Spanish": "microonda",
+    "English": "microwave"
+  },
+  {
+    "Spanish": "la cabeza",
+    "English": "head"
+  },
+  {
+    "Spanish": "el cerebro",
+    "English": "brain"
+  },
+  {
+    "Spanish": "el pelo",
+    "English": "hair"
+  },
+  {
+    "Spanish": "la cara",
+    "English": "face"
+  },
+  {
+    "Spanish": "el oreja",
+    "English": "ear"
+  },
+  {
+    "Spanish": "el ojo",
+    "English": "eye"
+  },
+  {
+    "Spanish": "la boca",
+    "English": "mouth"
+  },
+  {
+    "Spanish": "la naríz",
+    "English": "nose"
+  },
+  {
+    "Spanish": "el cuello",
+    "English": "neck"
+  },
+  {
+    "Spanish": "el hombro",
+    "English": "shoulder"
+  },
+  {
+    "Spanish": "el pecho",
+    "English": "chest"
+  },
+  {
+    "Spanish": "el estómigo",
+    "English": "stomach"
+  },
+  {
+    "Spanish": "la cintura",
+    "English": "waist"
+  },
+  {
+    "Spanish": "la espalda",
+    "English": "back"
+  },
+  {
+    "Spanish": "el corazón",
+    "English": "heart"
+  },
+  {
+    "Spanish": "el brazo",
+    "English": "arm"
+  },
+  {
+    "Spanish": "el codo",
+    "English": "elbow"
+  },
+  {
+    "Spanish": "la muñeca",
+    "English": "wrist"
+  },
+  {
+    "Spanish": "el mano",
+    "English": "hand"
+  },
+  {
+    "Spanish": "el dedo",
+    "English": "finger"
+  },
+  {
+    "Spanish": "la pierna",
+    "English": "leg"
+  },
+  {
+    "Spanish": "el pie",
+    "English": "foot"
+  },
+  {
+    "Spanish": "el dedo del pie",
+    "English": "toe"
+  },
+  {
+    "Spanish": "el sombrero",
+    "English": "hat"
+  },
+  {
+    "Spanish": "los pendientes",
+    "English": "earrings"
+  },
+  {
+    "Spanish": "la camisa",
+    "English": "shirt"
+  },
+  {
+    "Spanish": "la blusa",
+    "English": "blouse"
+  },
+  {
+    "Spanish": "el vestido",
+    "English": "dress"
+  },
+  {
+    "Spanish": "los pantelones",
+    "English": "pants"
+  },
+  {
+    "Spanish": "pantalones vaqueros",
+    "English": "jeans"
+  },
+  {
+    "Spanish": "la falda",
+    "English": "skirt"
+  },
+  {
+    "Spanish": "los calcetines",
+    "English": "socks"
+  },
+  {
+    "Spanish": "los zapatos",
+    "English": "shoes"
+  },
+  {
+    "Spanish": "el traje de bañar",
+    "English": "swimsuit"
+  },
+  {
+    "Spanish": "ropa anterior",
+    "English": "underwear"
+  },
+  {
+    "Spanish": "los guantes",
+    "English": "gloves"
+  },
+  {
+    "Spanish": "la correa",
+    "English": "belt"
+  },
+  {
+    "Spanish": "la capa",
+    "English": "coat"
+  },
+  {
+    "Spanish": "el anillo",
+    "English": "ring"
+  },
+  {
+    "Spanish": "perro/a",
+    "English": "dog"
+  },
+  {
+    "Spanish": "gato/a",
+    "English": "cat"
+  },
+  {
+    "Spanish": "ratón",
+    "English": "mouse"
+  },
+  {
+    "Spanish": "ave",
+    "English": "bird"
+  },
+  {
+    "Spanish": "gallina/gallo",
+    "English": "chicken/rooster"
+  },
+  {
+    "Spanish": "la vaca",
+    "English": "cow"
+  },
+  {
+    "Spanish": "pato/a",
+    "English": "duck"
+  },
+  {
+    "Spanish": "la cabra",
+    "English": "goat"
+  },
+  {
+    "Spanish": "el caballo",
+    "English": "horse"
+  },
+  {
+    "Spanish": "cerdo/a",
+    "English": "pig"
+  },
+  {
+    "Spanish": "oveja",
+    "English": "sheep"
+  },
+  {
+    "Spanish": "el lión",
+    "English": "lion"
+  },
+  {
+    "Spanish": "el tigre",
+    "English": "tiger"
+  },
+  {
+    "Spanish": "el oso",
+    "English": "bear"
+  },
+  {
+    "Spanish": "el lobo",
+    "English": "wolf"
+  },
+  {
+    "Spanish": "el elefante",
+    "English": "elephant"
+  },
+  {
+    "Spanish": "el mono",
+    "English": "monkey"
+  },
+  {
+    "Spanish": "la mofeta",
+    "English": "skunk"
+  },
+  {
+    "Spanish": "águila",
+    "English": "eagle"
+  },
+  {
+    "Spanish": "pez",
+    "English": "fish"
+  },
+  {
+    "Spanish": "la ballena",
+    "English": "whale"
+  },
+  {
+    "Spanish": "el bosque",
+    "English": "forest"
+  },
+  {
+    "Spanish": "los árboles",
+    "English": "trees"
+  },
+  {
+    "Spanish": "planta",
+    "English": "plant"
+  },
+  {
+    "Spanish": "flor",
+    "English": "flower"
+  },
+  {
+    "Spanish": "selva",
+    "English": "jungle"
+  },
+  {
+    "Spanish": "el océano",
+    "English": "ocean"
+  },
+  {
+    "Spanish": "el río",
+    "English": "river"
+  },
+  {
+    "Spanish": "la charca",
+    "English": "pond"
+  },
+  {
+    "Spanish": "el lago",
+    "English": "lake"
+  },
+  {
+    "Spanish": "la colina",
+    "English": "hill"
+  },
+  {
+    "Spanish": "la montaña",
+    "English": "mountain"
+  },
+  {
+    "Spanish": "cascada",
+    "English": "waterfall"
+  },
+  {
+    "Spanish": "el arco iris",
+    "English": "rainbow"
+  },
+  {
+    "Spanish": "el cielo",
+    "English": "sky"
+  },
+  {
+    "Spanish": "niebla",
+    "English": "cloud"
+  },
+  {
+    "Spanish": "la lluvia",
+    "English": "rain"
+  },
+  {
+    "Spanish": "el nieve",
+    "English": "snow"
+  },
+  {
+    "Spanish": "el granizo",
+    "English": "hail"
+  },
+  {
+    "Spanish": "la niebla",
+    "English": "fog"
+  },
+  {
+    "Spanish": "el campo",
+    "English": "field/meadow"
+  },
+  {
+    "Spanish": "el relámpago",
+    "English": "lightning"
+  },
+  {
+    "Spanish": "el ángel",
+    "English": "angel"
+  },
+  {
+    "Spanish": "el bautismo",
+    "English": "baptism"
+  },
+  {
+    "Spanish": "la biblia",
+    "English": "Bible"
+  },
+  {
+    "Spanish": "el obispo",
+    "English": "bishop"
+  },
+  {
+    "Spanish": "el buddismo",
+    "English": "Buddhism"
+  },
+  {
+    "Spanish": "el catedral",
+    "English": "cathedral"
+  },
+  {
+    "Spanish": "el cristianismo",
+    "English": "Christianity"
+  },
+  {
+    "Spanish": "la iglesia",
+    "English": "church"
+  },
+  {
+    "Spanish": "la fe",
+    "English": "faith"
+  },
+  {
+    "Spanish": "el Diós",
+    "English": "God"
+  },
+  {
+    "Spanish": "el cielo",
+    "English": "heaven"
+  },
+  {
+    "Spanish": "el infierno",
+    "English": "hell"
+  },
+  {
+    "Spanish": "el judaismo",
+    "English": "Judaism"
+  },
+  {
+    "Spanish": "el monasterio",
+    "English": "monastery"
+  },
+  {
+    "Spanish": "el Pápa",
+    "English": "Pope"
+  },
+  {
+    "Spanish": "la profeta",
+    "English": "prophet"
+  },
+  {
+    "Spanish": "el protestante",
+    "English": "Protestant"
+  },
+  {
+    "Spanish": "la religión",
+    "English": "religion"
+  },
+  {
+    "Spanish": "el sermón",
+    "English": "sermon"
+  },
+  {
+    "Spanish": "el templo",
+    "English": "temple"
+  },
+  {
+    "Spanish": "cantar",
+    "English": "to sing"
+  },
+  {
+    "Spanish": "adorar",
+    "English": "to worship"
+  },
+  {
+    "Spanish": "orar",
+    "English": "to pray"
+  },
+  {
+    "Spanish": "arrepentirse",
+    "English": "to repent (reflexive)"
+  }
+]
