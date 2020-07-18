@@ -6,8 +6,8 @@ using System;
 
 [Serializable]
 public enum GameMode{
-    SPANISH_TO_ENGLISH,
-    ENGLISH_TO_SPANISH
+    SPANISH_TO_ENGLISH ,
+    ENGLISH_TO_SPANISH,
 }
 
 [Serializable]
@@ -26,11 +26,19 @@ public class GameManager : MonoBehaviour{
     public static int Points { get;set;} = 0;
     public static GameMode gameMode = GameMode.SPANISH_TO_ENGLISH;
     public static DifficultyLevel difficulty = DifficultyLevel.EASY;
+    public static bool hasHints = false;
 
     public static GameData data = new GameData();
-    
-    public static void LoadWordsFromJSON(){
+
+    private void Awake() {
         Path = $"{Application.dataPath}/StreamingAssets/spanish words.json";
+        UpdateDictionary.OnDownloadingDone += () => {
+            LoadWordsFromJSON();
+            Debug.Log($"Words count: {words.Count}");
+        };
+    }
+    
+    private  void LoadWordsFromJSON(){
         string content = "";
         using(var reader = new StreamReader(Path)){
             content = reader.ReadToEnd();
@@ -41,18 +49,6 @@ public class GameManager : MonoBehaviour{
             var word = new Word(wordDict["English"], wordDict["Spanish"]);
             words.Add(word);
         }
-    }
-
-    private void Awake(){
-        LoadWordsFromJSON();
-        Debug.Log($"Words count: {words.Count}");
-        /* foreach (var item in words)
-        {
-            Debug.Log($"English: {item.English}, Spanish: {item.Spanish}");            
-        }*/
-    }
-
-    private void Update(){
     }
 
     public static void Save(){

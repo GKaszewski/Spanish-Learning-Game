@@ -10,12 +10,16 @@ public class UIController : MonoBehaviour{
     private CombatSystem combatSystem;
     public GameObject pausePanel;
     public Slider difficultySlider;
+    public Toggle hints;
     public GameObject settingsPanel;
     public GameObject menuPanel;
 
     public TMP_Text pointsText;
 
     private void Awake(){
+        if (hints) {
+            hints.isOn = GameManager.hasHints;
+        }
         playerController = FindObjectOfType<FpsController>();
         combatSystem = FindObjectOfType<CombatSystem>();
         Time.timeScale = 1f;
@@ -24,32 +28,8 @@ public class UIController : MonoBehaviour{
     }
 
     private void Update(){
-        if(Input.GetKeyDown(KeyCode.Escape) && pausePanel != null){
-            if(isPaused){
-                if(playerController != null)
-                    playerController.enabled = true;
-
-                if(combatSystem != null)
-                    combatSystem.enabled = true;
-
-                pausePanel.SetActive(false);
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
-                Time.timeScale = 1f;
-                isPaused = false;
-            } else {
-                if(playerController != null)
-                    playerController.enabled = false;
-
-                if(combatSystem != null)
-                    combatSystem.enabled = false;
-
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = !true;
-                Time.timeScale = 0f;
-                pausePanel.SetActive(true);
-                isPaused = true;
-            }
+        if(Input.GetKeyDown(KeyCode.Escape) && pausePanel != null && !combatSystem.responseTool.activeSelf) {
+            Pause();
         }
 
         if(isPaused){
@@ -60,6 +40,33 @@ public class UIController : MonoBehaviour{
         if(pointsText != null){
             pointsText.text = $"POINTS: {GameManager.Points}";
         }
+    }
+
+    private void Pause() {
+        if (isPaused) {
+            SetControl(true);
+            pausePanel.SetActive(false);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            Time.timeScale = 1f;
+            isPaused = false;
+        }
+        else {
+            SetControl(false);
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = true;
+            Time.timeScale = 0f;
+            pausePanel.SetActive(true);
+            isPaused = true;
+        }
+    }
+
+    private void SetControl(bool on) {
+        if (playerController != null)
+            playerController.enabled = on;
+
+        if (combatSystem != null)
+            combatSystem.enabled = on;
     }
 
     public void StartGame(){
@@ -93,6 +100,10 @@ public class UIController : MonoBehaviour{
     public void SetDifficulty(){
         GameManager.difficulty = (DifficultyLevel) difficultySlider.value;
         Debug.Log($"Current difficulty: {GameManager.difficulty}");
+    }
+
+    public void SetHints() {
+        GameManager.hasHints = hints.isOn;
     }
 
     public void ShowSettings(){

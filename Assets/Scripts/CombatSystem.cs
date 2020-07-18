@@ -16,6 +16,8 @@ public class CombatSystem : MonoBehaviour
     public GameObject crosshair;
     public TMP_InputField textField;
     public TMP_Text wordText;
+    public TMP_Text hintText;
+    public TMP_Text hintsLabel;
     public TMP_Text pointsText;
 
     private void Awake()
@@ -23,6 +25,9 @@ public class CombatSystem : MonoBehaviour
         camTransform = Camera.main.transform;
         fpsController = GetComponent<FpsController>();
         responseTool.SetActive(false);
+
+        hintText.enabled = GameManager.hasHints;
+        hintsLabel.enabled = GameManager.hasHints;
     }
 
     private void Update()
@@ -73,11 +78,31 @@ public class CombatSystem : MonoBehaviour
 
         int wordIndex = rnd.Next(GameManager.words.Count);
         word = GameManager.words[wordIndex];
-        
-        if(GameManager.gameMode == GameMode.SPANISH_TO_ENGLISH)
-            wordText.text = word.Spanish;
-        if(GameManager.gameMode == GameMode.ENGLISH_TO_SPANISH)
-            wordText.text = word.English;
+
+        if (GameManager.hasHints) {
+            switch (GameManager.gameMode) {
+                case GameMode.SPANISH_TO_ENGLISH:
+                    wordText.text = word.Spanish;
+                    var wordLength = word.English.Length;
+                    hintText.text = word.English.Substring(0, Random.Range(3, wordLength-1));
+                    break;
+                case GameMode.ENGLISH_TO_SPANISH:
+                    wordText.text = word.English;
+                    hintText.text = word.Spanish.Substring(0, 3);;
+                    break;
+            }
+        }
+        else {
+            switch (GameManager.gameMode) {
+                case GameMode.SPANISH_TO_ENGLISH:
+                    wordText.text = word.Spanish;
+                    break;
+                case GameMode.ENGLISH_TO_SPANISH:
+                    wordText.text = word.English;
+                    break;
+            }
+        }
+       
 
         ShowAttackingStuff();
         textField.onValueChanged.AddListener(OnTextFieldChange);
