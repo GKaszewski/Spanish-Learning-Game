@@ -100,9 +100,9 @@ public class FpsController : MonoBehaviour
 
     private void Start()
     {
-        Application.targetFrameRate = 60; // My laptop is shitty and burn itself to death if not for this
         _transform = transform;
         _ghostJumpRayPosition = _groundedRayPositions.Last();
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Only for debug drawing
@@ -128,7 +128,7 @@ public class FpsController : MonoBehaviour
 
     private void Update()
     {
-        Cursor.lockState = CursorLockMode.Locked; // Keep doing this. We don't want cursor anywhere just yet
+        //Cursor.lockState = CursorLockMode.Locked; // Keep doing this. We don't want cursor anywhere just yet
 
         var dt = Time.deltaTime;
 
@@ -196,6 +196,7 @@ public class FpsController : MonoBehaviour
         }
 
         var displacement = _velocity * dt;
+        GameManager.isMoving = displacement.magnitude > 0.01;
         
         // If we're moving too fast, make sure we don't hollow through any collider
         if (displacement.magnitude > _collisionVolume.radius)

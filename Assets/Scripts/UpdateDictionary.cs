@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using UnityEngine;
 
 public class UpdateDictionary : MonoBehaviour {
@@ -6,7 +7,7 @@ public class UpdateDictionary : MonoBehaviour {
     public static Action OnDownloadingDone;
 
     private void Awake() {
-        path = $"{Application.dataPath}/StreamingAssets/spanish words.json";
+        path = Path.Combine(Application.streamingAssetsPath, "spanish words.json");
         DownloadData();
     }
 

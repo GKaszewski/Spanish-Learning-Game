@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Health : MonoBehaviour
 {
-    public virtual void TakeDamage()
+    public virtual void TakeDamage(float damage)
     {
        
     }

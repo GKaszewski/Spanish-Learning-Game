@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 public static class ApiService {
-    private const string URL = "http://ezioleq.ddns.net:8079/api/word/";
+    private const string URL = "http://91.188.125.24:8888/api/word/";
     private static List<Dictionary<string, string>> fetchedData = new List<Dictionary<string, string>>();
 
     public static async Task<bool> FetchData() {
@@ -19,6 +19,7 @@ public static class ApiService {
             using (var reader = new StreamReader(stream ?? Stream.Null)) {
                 var data = await reader.ReadToEndAsync();
                 fetchedData = JsonConvert.DeserializeObject<List<Dictionary<string, string>>>(data);
+                //GameManager.AddWordsToDictionary(fetchedData);
                 return true;
             }
         }

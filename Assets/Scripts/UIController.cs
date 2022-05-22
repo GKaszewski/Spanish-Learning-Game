@@ -2,62 +2,110 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
-public class UIController : MonoBehaviour{
-
+public class UIController : MonoBehaviour {
     private bool isPaused = false;
     private FpsController playerController;
     private CombatSystem combatSystem;
-    public GameObject pausePanel;
+    private DepthOfField blur = null;
+
     public Slider difficultySlider;
     public Toggle hints;
     public GameObject settingsPanel;
     public GameObject menuPanel;
+    public GameObject pausePanel;
+    public GameObject bgOverlay;
+    public GameObject exitButton;
 
     public TMP_Text pointsText;
+    public TMP_Text highScoreText;
+    public Volume postVolume;
 
     private void Awake(){
+        LoadGame();
         if (hints) {
             hints.isOn = GameManager.hasHints;
         }
+
+        if (difficultySlider) {
+            difficultySlider.value = (int)GameManager.difficulty;
+        }
+
         playerController = FindObjectOfType<FpsController>();
         combatSystem = FindObjectOfType<CombatSystem>();
         Time.timeScale = 1f;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
+        postVolume.profile.TryGet(out blur);
+
+#if UNITY_WEBGL
+        exitButton.SetActive(false);
+#endif
     }
 
     private void Update(){
-        if(Input.GetKeyDown(KeyCode.Escape) && pausePanel != null && !combatSystem.responseTool.activeSelf) {
+#if UNITY_STANDALONE
+if(Input.GetKeyDown(KeyCode.Escape) && pausePanel != null && !combatSystem.responseTool.activeSelf) {
             Pause();
         }
+#endif
+#if UNITY_WEBGL
+        if (Input.GetKeyDown(KeyCode.P) && pausePanel != null && !combatSystem.responseTool.activeSelf) {
+            Pause();
+        }
+#endif
 
-        if(isPaused){
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+
+        if (isPaused){
+            ShowMouse();
         }
 
-        if(pointsText != null){
+        if(pointsText){
             pointsText.text = $"POINTS: {GameManager.Points}";
         }
+
+        if (highScoreText) {
+            highScoreText.text = $"HIGHSCORE: {GameManager.HighScore}";
+        }
+    }
+
+    private void EnablePause() {
+        SetControl(false);
+        ShowMouse();
+        Time.timeScale = 0f;
+        EnableBlur();
+        pausePanel.SetActive(true);
+        bgOverlay.SetActive(true);
+        isPaused = true;
+    }
+    private void DisablePause() {
+        SetControl(true);
+        DisableBlur();
+        pausePanel.SetActive(false);
+        bgOverlay.SetActive(false);
+        HideMouse();
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+
+    private void HideMouse() {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+    private void ShowMouse() {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     private void Pause() {
         if (isPaused) {
-            SetControl(true);
-            pausePanel.SetActive(false);
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-            Time.timeScale = 1f;
-            isPaused = false;
-        }
-        else {
-            SetControl(false);
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = true;
-            Time.timeScale = 0f;
-            pausePanel.SetActive(true);
-            isPaused = true;
+            DisablePause();
+        } else {
+            EnablePause();
         }
     }
 
@@ -70,6 +118,7 @@ public class UIController : MonoBehaviour{
     }
 
     public void StartGame(){
+        GameManager.Points = 0;
         GameManager.Load();
         SceneManager.LoadSceneAsync(1);
     }
@@ -80,17 +129,7 @@ public class UIController : MonoBehaviour{
     }
 
     public void Resume() {
-        isPaused = false;
-        if(playerController != null)
-            playerController.enabled = true;
-
-        if(combatSystem != null)
-            combatSystem.enabled = true;
-
-        pausePanel.SetActive(false);
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-        Time.timeScale = 1f;
+        DisablePause();
     }
 
     public void SaveGame() => GameManager.Save();
@@ -132,5 +171,15 @@ public class UIController : MonoBehaviour{
 
     public void GoToMenuWithoutSaving(){
         SceneManager.LoadSceneAsync(0);
+    }
+
+    private void EnableBlur() {
+        if (!blur) return;
+        blur.active = true;
+    }
+
+    private void DisableBlur() {
+        if (!blur) return;
+        blur.active = false;
     }
 }
