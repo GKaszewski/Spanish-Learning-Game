@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class WaveSpawner : MonoBehaviour{
 
@@ -20,6 +21,7 @@ public class WaveSpawner : MonoBehaviour{
     private void Awake(){
         pooler = ObjectPooler.SharedInstance;
         currentEnemies = enemyCount;
+        GameManager.AllEnemies = currentEnemies;
         CallSpawn();
     }
 
@@ -37,8 +39,10 @@ public class WaveSpawner : MonoBehaviour{
             Invoke("CallSpawn", 0f); 
         }
 
-        if(waves == 0){
+        if(GameManager.AllEnemies == 0){
             CancelInvoke();
+            GameManager.CalculateHighScore();
+            SceneManager.LoadSceneAsync(3);
             Debug.Log("Wow, you've won!");
         }
     }
